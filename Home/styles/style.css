@@ -1,0 +1,169 @@
+
+html{
+
+background-color: white;
+height: 100%; /*al estar al 100%*/
+
+
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Arimo', sans-serif !important;
+}
+
+h3{
+    text-align: center;
+    padding: 0px;
+
+}
+.wrapperTop{
+    background-color: #363636;
+    background-image: url("http://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+    min-width: 100%;
+    min-height: 2rem;
+    border-radius: 0px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0.5vh 20vw ;
+    justify-content: flex-start;
+    z-index: 2;
+
+}
+
+.topItem{
+    display: flex;
+    font-family: 'Arimo', sans-serif;
+    color: #FCF8EC;
+    text-decoration: none;
+}
+
+.containerMenu{
+    width: 100%;
+    background-color: white;
+    box-shadow:  inset -3px -46px 112px -60px rgba(0,0,0,0.35);
+    z-index: 1;
+}
+
+.menuNav{
+    width: 60vw;
+    min-height: 9.5rem;
+    font-size: 1.5rem;
+    margin: auto;
+    font-family: 'Arimo', sans-serif;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 1rem;
+
+}
+
+.menuItems{
+    margin-right: 1rem;
+}
+
+.menuName{
+    margin-right: auto;
+}
+
+.menuName, .menuItems{
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+
+.header{
+    min-width: 100%;
+    height: 50rem;
+    background-image: url(../images/headerFurnace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*responsive image*/
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.headerInfo{
+    height: 80%;
+    width: 80%;
+    background-color: rgba(77, 88, 91, 0.3);
+    margin: auto;
+    border-radius: 5px;
+
+
+}
+
+.carousel{
+    background-color: rgba(77, 88, 91, 0.3);
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+    margin: 20px;
+}
+
+.nosotrosWrapper{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.nosotros{
+    border-bottom: 1px ridge;
+    border-color: grey;
+    width: 80rem;
+    background-color: white;
+    margin: 5rem;
+    text-align: center;
+}
+
+.productsWrapper{
+    background-color: #F2F5F1;
+    padding: 2rem
+
+}
+
+.flexProductsWrapper{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexProd{
+    text-align: center;
+    padding: 5%;
+}
+
+.flexProdCaption{
+    align-content: center;
+    width: 300px;
+    margin: auto;
+    padding: inherit;
+}
+
+.contactenosWrapper{
+    color: #FCFFF5;
+    padding: 0px;
+    height: 400px;
+    background-color: #3B424C;
+    padding: 2rem 5rem;
+}
+
+.contactenos{
+    width: 70%;
+}
+
