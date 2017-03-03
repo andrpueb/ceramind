@@ -1,0 +1,73 @@
+
+.contactenosWrapper{
+    height: 1200px;
+    margin: 0px;
+    color: #FCFFF5;
+    background-color: #667D94;
+    padding:12rem 7rem 5rem 7rem;
+}
+
+img{
+  height: 45px;
+}
+
+
+.flexContact{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    margin: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: em;
+    margin-bottom: 2em;
+}
+
+fieldset{
+    width: 90%;
+}
+
+.mapContainer{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+}
+
+#googleMap{
+    width: 100%;
+    border-radius: 10px;
+    padding: 0px !important;
+
+
+}
+
+.footerWrapper{
+    background-color: #1E2833;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: dimgrey;
+    padding-top: 2em;
+}
+
+.footerWrapper p{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 640px){
+    .flexContact{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    form{
+        width: 70%;
+    }
+    .mapContainer{
+        width: 100%;
+    }
+
+}

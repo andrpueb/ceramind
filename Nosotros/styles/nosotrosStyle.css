@@ -1,0 +1,56 @@
+.historia{
+    height: auto;
+    background-color: #E5E7E8;
+    padding: 12rem 7rem 5rem 7rem;
+    text-align: center;
+}
+
+.productsWrapper{
+    background-color: #F2F5F1;
+    padding: 4rem 7rem;
+    text-align: center;
+    height: auto;
+}
+
+.flexProductsWrapper{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexProd{
+    text-align: center;
+    padding: 1rem;
+}
+
+.flexProdCaption{
+    align-content: center;
+    width: 300px;
+    margin: auto;
+    padding: inherit;
+    font-size: 2rem;
+}
+
+.contactenosWrapper{
+    margin: 0px;
+    color: #FCFFF5;
+    padding: 4rem 7rem;
+    height: 400px;
+    background-color: #667D94;
+    padding: 2rem 5rem;
+}
+
+.footerWrapper{
+    background-color: #1E2833;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: dimgrey;
+    padding-top: 2em;
+}
+
+.footerWrapper p{
+    font-size: 12px;
+}
